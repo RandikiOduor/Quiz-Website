@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Lato&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+nav {
+    position: fixed;
+    box-sizing: border-box;
+    height: 120px;
+    width: 100%;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.logo {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: teal;
+    padding: 22px 20px;
+    height: 120px;
+    float: left;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+    margin-right: 50px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li a {
+    line-height: 120px;
+    color: teal;
+    padding: 12px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav li {
+    margin: 0.8px;
+    line-height: 80px;
+}
+
+footer {
+    height: auto;
+    font-family: 'Lato', sans-serif;
+    padding-top: 30px;
+    color: teal;
+    background-color: aliceblue;
+    padding-bottom: 1em;
+}
+
+.footers {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.footers2 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.socialmedia {
+    list-style: none;
+    display: flex;
+}
+
+.socialmedia li {
+    margin: 0 10px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+    color: teal;
+}
+
+.socialmedia a i {
+    transition: 0.4s ease;
+    font-size: 1.1rem;
+}
+
+.socialmedia a:hover {
+    text-decoration: none;
+    color: grey;
+}
+
+a:hover {
+    background-color: grey;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: grey;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.fwh-slide {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+}
+
+.container {
+    position: absolute;
+    top: 35%;
+    left: 32%;
+    width: 450px;
+    padding: 20px;
+    background: transparent;
+    font-size: 12px;
+}
+
+.input {
+    width: 100%;
+    margin: 20px 0;
+    background: transparent;
+}
+
+input {
+    text-indent: 15px;
+    padding: 12px 0;
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 1px solid teal;
+    border-top: 1px solid teal;
+    border-right: 1px solid teal;
+    border-bottom: 1px solid teal;
+    outline: none;
+    background: transparent;
+}
+
+.submitbtn {
+    bottom: 5px;
+    padding: 10px;
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+    background-color: teal;
+    border-radius: 4px;
+}
+
+.submitbtn:hover {
+    cursor: pointer;
+    background-color: grey;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+h2 {
+    color: grey;
+    padding-top: 6em;
+}
+
+textarea {
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    color: grey;
+    outline: none;
+    width: 100%;
+    padding-bottom: 60px;
+    background: transparent
+}

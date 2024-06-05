@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Lato&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+nav {
+    position: fixed;
+    box-sizing: border-box;
+    height: 100px;
+    width: 100%;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.logo {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: teal;
+    padding: 22px 20px;
+    height: 120px;
+    float: left;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+    margin-right: 50px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li a {
+    line-height: 120px;
+    color: teal;
+    padding: 12px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav li {
+    margin: 0.8px;
+    line-height: 80px;
+}
+
+footer {
+    background: transparent;
+    height: auto;
+    font-family: 'Lato', sans-serif;
+    padding-top: 30px;
+    color: teal;
+    background-color: aliceblue;
+    padding-bottom: 1em;
+}
+
+.footers {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.footers2 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.socialmedia {
+    list-style: none;
+    display: flex;
+}
+
+.socialmedia li {
+    margin: 0 10px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+    color: teal;
+}
+
+.socialmedia a i {
+    transition: 0.4s ease;
+    font-size: 1.1rem;
+}
+
+.socialmedia a:hover {
+    text-decoration: none;
+    color: grey;
+}
+
+a:hover {
+    background-color: grey;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: grey;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.fwh-slide {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-color: aliceblue;
+}
+
+.fwh-slide1 {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+}
+
+.quote {
+    position: relative;
+    top: 15em;
+    text-align: center;
+}
+
+.quote h1 {
+    color: teal;
+    font-size: 25px;
+    width: 100%;
+}
+
+.quote a {
+    background-color: black;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    font-size: 17px;
+    display: inline-block;
+    margin-top: 2px;
+    color: teal;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.quote a:hover {
+    background: grey;
+    border-radius: 10px;
+}
+
+.head {
+    font-size: 25px;
+    text-align: center;
+    color: teal;
+}
+
+.container {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    box-shadow: 1px 1px 20px teal;
+    width: 300px;
+    padding: 20px;
+    background: transparent;
+    font-size: 12px;
+}
+
+.input {
+    width: 100%;
+    margin: 20px 0;
+    background: transparent;
+}
+
+input {
+    text-indent: 15px;
+    padding: 12px 0;
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid teal;
+    outline: none;
+    background: transparent;
+}
+
+.submitbtn {
+    bottom: 5px;
+    padding: 10px;
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+    background-color: teal;
+    border-radius: 4px;
+    color: black;
+}
+
+.submitbtn:hover {
+    cursor: pointer;
+    background-color: grey;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.quote1 h2 {
+    text-align: center;
+    color: grey;
+    padding-top: 4em;
+}
+
+h2 {
+    color: teal;
+    padding-top: 1em;
+    text-align: center;
+}
+
+.quote1 a {
+    box-shadow: 1px 1px 20px teal;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    font-size: 17px;
+    display: inline-block;
+    margin-top: 2px;
+    color: teal;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.quote1 {
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 20% 30%;
+    text-align: center;
+}
+
+h1 {
+    color: grey;
+    text-align: center;
+}
+
+.btn {
+    bottom: 5px;
+    padding: 10px 117px;
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+    background-color: teal;
+    border-radius: 4px;
+    color: black;
+    text-decoration: none;
+    padding-top: 0.5em;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: grey;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.container h1 {
+    padding-bottom: 1em;
+}

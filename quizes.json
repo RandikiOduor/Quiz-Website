@@ -1,0 +1,34 @@
+[{
+    "quiz": "What number best completes the analogy: 8:4 as 10:?",
+    "mcqs1": "3",
+    "mcqs2": "7",
+    "mcqs3": "24",
+    "mcqs4": "5",
+    "answer": 4
+}, {
+    "quiz": "What does it mean if a case investigation runs cold? ",
+    "mcqs1": "Criminals are free",
+    "mcqs2": "Law enforcement is weak",
+    "mcqs3": "Evidence and witnesses no longer cooperate",
+    "mcqs4": "The possibility of solving the case is almost impossible",
+    "answer": 4
+
+}, {
+    "quiz": "What is sour-graping?",
+    "mcqs1": "Being contented with what you have",
+    "mcqs2": "Making something seem less important after finding out they can't have it",
+    "mcqs3": "Judging people or things based on personal opinion",
+    "mcqs4": "Telling someone he or she is inferior in terms of attitude",
+    "answer": 4
+
+
+}, {
+    "quiz": "Which object is like the others?",
+    "mcqs1": "Microscope",
+    "mcqs2": "Binoculars",
+    "mcqs3": "Glass",
+    "mcqs4": "Windows",
+    "answer": 2
+
+
+}]
